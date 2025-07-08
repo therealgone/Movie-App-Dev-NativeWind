@@ -4,7 +4,10 @@ module.exports = {
 
   presets: [require('nativewind/preset')],
   theme: {
-    extend: {},
+    extend: {
+
+      blacker:'#30014'
+    },
   },
   plugins: [],
 };
